@@ -12,10 +12,10 @@ module "vpc" {
 
 ## Variables
 
-| Variable   | Default     | Required | Description                                                        |
-|------------|-------------|----------|--------------------------------------------------------------------|
-| name       | 10.0.0.0/16 | No       | VPC name                                                           |
-| cidr_block |             | Yes      | VPC CIDR Block                                                     |
+| Variable   | Default     | Required | Description    |
+|------------|-------------|----------|----------------|
+| name       | 10.0.0.0/16 | No       | VPC name       |
+| cidr_block |             | Yes      | VPC CIDR Block |
 
 ## Outputs
 
