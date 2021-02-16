@@ -1,12 +1,16 @@
 # Terraform Module AWS VPC
 
-How to use
+Creates a simpe AWS VPC
+
+# Example
 
 ```workflow
 module "vpc" {
   source = "git@github.com:hmanzur/terraform-module-vpc.git"
 
   name = "VPC Cool Name"
+  
+  cidr_block = "10.0.0.0.16"
 }
 ```
 
